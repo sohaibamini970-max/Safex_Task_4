@@ -1,0 +1,58 @@
+/**
+ * Brand Theme: Heritage Regional Printing Press
+ * Evokes the craft and tactile warmth of a master letterpress atelier:
+ * - Warm paper/parchment background tones (--pp-color-paper-*)
+ * - Deep Heidelberg printer's ink typography (--pp-color-ink-900 / ink-950)
+ * - Vermilion letterpress proof stamp accent (--pp-color-red-600)
+ * - Classic editorial serif typography (--pp-font-serif)
+ * 
+ * Rules: Overrides SEMANTIC tokens only. Never overrides primitive tokens directly.
+ */
+
+[data-theme="brand"] {
+  /* Warm Parchment Surfaces */
+  --color-bg-primary:   var(--pp-color-paper-50);
+  --color-bg-secondary: var(--pp-color-paper-100);
+  --color-bg-elevated:  var(--pp-color-paper-50);
+
+  /* Deep Printer's Ink Typography */
+  --color-text-primary:   var(--pp-color-ink-950);
+  --color-text-secondary: var(--pp-color-ink-800);
+  --color-text-muted:     var(--pp-color-ink-500);
+
+  /* Parchment Fiber Borders */
+  --color-border-subtle: var(--pp-color-paper-300);
+  --color-border-strong: var(--pp-color-paper-400);
+
+  /* Vermilion Letterpress Stamp Accent */
+  --color-accent:       var(--pp-color-red-700);
+  --color-accent-hover: var(--pp-color-red-800);
+  --color-accent-fg:    var(--pp-color-paper-50);
+
+  /* Status Colors tuned for warm background contrast */
+  --color-danger:        var(--pp-color-red-700);
+  --color-danger-fg:     var(--pp-color-paper-50);
+  --color-danger-bg:     var(--pp-color-paper-200);
+  --color-danger-border: var(--pp-color-red-300);
+
+  --color-warning:        var(--pp-color-amber-700);
+  --color-warning-fg:     var(--pp-color-paper-50);
+  --color-warning-bg:     var(--pp-color-amber-100);
+  --color-warning-border: var(--pp-color-amber-300);
+
+  --color-success:        var(--pp-color-green-700);
+  --color-success-fg:     var(--pp-color-paper-50);
+  --color-success-bg:     var(--pp-color-green-100);
+  --color-success-border: var(--pp-color-green-300);
+
+  --color-info:        var(--pp-color-blue-800);
+  --color-info-fg:     var(--pp-color-paper-50);
+  --color-info-bg:     var(--pp-color-paper-200);
+  --color-info-border: var(--pp-color-blue-300);
+
+  --color-focus-ring: rgba(185, 28, 28, 0.35);
+
+  /* Traditional Printing Typography */
+  --font-heading: var(--pp-font-serif);
+  --font-body:    var(--pp-font-sans);
+}

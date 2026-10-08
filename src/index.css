@@ -1,0 +1,51 @@
+/* Layer 1: Atomic Primitives */
+@import "./tokens/primitives.css";
+
+/* Layer 2: Semantic Tokens (Baseline) */
+@import "./tokens/semantic.css";
+
+/* Layer 3: Component-Specific Tokens */
+@import "./tokens/components.css";
+
+/* Theme Overrides (Overrides Semantic Layer Only) */
+@import "./themes/light.css";
+@import "./themes/dark.css";
+@import "./themes/brand.css";
+
+@import "tailwindcss";
+
+/* Universal Design System Reset via Tokens */
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  font-family: var(--font-body);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--color-text-primary);
+  letter-spacing: -0.015em;
+}
+
+code, pre, kbd {
+  font-family: var(--font-code);
+}
+
+::selection {
+  background-color: var(--color-accent);
+  color: var(--color-accent-fg);
+}

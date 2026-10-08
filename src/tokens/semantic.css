@@ -1,0 +1,58 @@
+/**
+ * Layer 2: Semantic Design Tokens (Default / Light Baseline)
+ * Aliases that map primitive tokens to contextual purposes.
+ * Themes MUST override only these semantic tokens.
+ */
+
+:root {
+  /* Surface / Backgrounds */
+  --color-bg-primary:   var(--pp-color-white);
+  --color-bg-secondary: var(--pp-color-ink-50);
+  --color-bg-elevated:  var(--pp-color-white);
+
+  /* Typography / Text */
+  --color-text-primary:   var(--pp-color-ink-900);
+  --color-text-secondary: var(--pp-color-ink-600);
+  --color-text-muted:     var(--pp-color-ink-400);
+
+  /* Borders & Dividers */
+  --color-border-subtle: var(--pp-color-ink-200);
+  --color-border-strong: var(--pp-color-ink-300);
+
+  /* Accent / Brand Actions (Default clean royal blue) */
+  --color-accent:       var(--pp-color-blue-600);
+  --color-accent-hover: var(--pp-color-blue-700);
+  --color-accent-fg:    var(--pp-color-white);
+
+  /* Feedback & Status */
+  --color-danger:     var(--pp-color-red-600);
+  --color-danger-fg:  var(--pp-color-white);
+  --color-danger-bg:  var(--pp-color-red-50);
+  --color-danger-border: var(--pp-color-red-200);
+
+  --color-warning:    var(--pp-color-amber-600);
+  --color-warning-fg: var(--pp-color-ink-950);
+  --color-warning-bg: var(--pp-color-amber-50);
+  --color-warning-border: var(--pp-color-amber-200);
+
+  --color-success:    var(--pp-color-green-600);
+  --color-success-fg: var(--pp-color-white);
+  --color-success-bg: var(--pp-color-green-50);
+  --color-success-border: var(--pp-color-green-200);
+
+  --color-info:       var(--pp-color-blue-600);
+  --color-info-fg:    var(--pp-color-white);
+  --color-info-bg:    var(--pp-color-blue-50);
+  --color-info-border: var(--pp-color-blue-200);
+
+  /* Focus & Active Highlights */
+  --color-focus-ring: rgba(37, 99, 235, 0.4);
+
+  /* Layout Semantics */
+  --space-layout-gutter: var(--pp-space-4);
+  --font-heading:        var(--pp-font-sans);
+  --font-body:           var(--pp-font-sans);
+  --font-code:           var(--pp-font-mono);
+  --radius-interactive:  var(--pp-radius-md);
+  --radius-container:    var(--pp-radius-lg);
+}

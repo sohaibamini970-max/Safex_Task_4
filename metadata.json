@@ -1,0 +1,6 @@
+{
+  "name": "Heritage Press Design System",
+  "description": "Design system with design tokens, multi-theme engine, resilient failure states, and visual regression tests for a regional printing press.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

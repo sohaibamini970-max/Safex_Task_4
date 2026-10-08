@@ -1,0 +1,47 @@
+/**
+ * Dark Theme
+ * Overrides semantic tokens for low-light press operators and night shifts.
+ * Deep midnight ink backgrounds, muted slate borders, and electric blue accents.
+ */
+
+[data-theme="dark"] {
+  --color-bg-primary:   var(--pp-color-ink-950);
+  --color-bg-secondary: var(--pp-color-ink-900);
+  --color-bg-elevated:  var(--pp-color-ink-800);
+
+  --color-text-primary:   var(--pp-color-ink-50);
+  --color-text-secondary: var(--pp-color-ink-300);
+  --color-text-muted:     var(--pp-color-ink-500);
+
+  --color-border-subtle: var(--pp-color-ink-800);
+  --color-border-strong: var(--pp-color-ink-700);
+
+  --color-accent:       var(--pp-color-blue-500);
+  --color-accent-hover: var(--pp-color-blue-400);
+  --color-accent-fg:    var(--pp-color-ink-950);
+
+  --color-danger:        var(--pp-color-red-400);
+  --color-danger-fg:     var(--pp-color-ink-950);
+  --color-danger-bg:     var(--pp-color-red-900);
+  --color-danger-border: var(--pp-color-red-700);
+
+  --color-warning:        var(--pp-color-amber-400);
+  --color-warning-fg:     var(--pp-color-ink-950);
+  --color-warning-bg:     var(--pp-color-amber-900);
+  --color-warning-border: var(--pp-color-amber-700);
+
+  --color-success:        var(--pp-color-green-400);
+  --color-success-fg:     var(--pp-color-ink-950);
+  --color-success-bg:     var(--pp-color-green-900);
+  --color-success-border: var(--pp-color-green-700);
+
+  --color-info:        var(--pp-color-blue-400);
+  --color-info-fg:     var(--pp-color-ink-950);
+  --color-info-bg:     var(--pp-color-blue-900);
+  --color-info-border: var(--pp-color-blue-700);
+
+  --color-focus-ring: rgba(96, 165, 250, 0.4);
+
+  --font-heading: var(--pp-font-sans);
+  --font-body:    var(--pp-font-sans);
+}
